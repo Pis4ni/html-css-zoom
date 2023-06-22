@@ -1,6 +1,7 @@
 :root{
 
     --button-color1:#4a4a4a;
+    --close-color2:#1a1a1a;
     --background-color:#000000;
     --footer-color:#222222;
     --button-color:#ffffff;
@@ -24,6 +25,10 @@
     padding: 0;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     background-color: var(--background-color);
     height: 3vh;
@@ -40,7 +45,7 @@ footer{
     background-color: var(--footer-color);
     color: var(--button-color);
     text-align: center;
-    font-size: 1rem;
+    font-size: .6rem;
 
 }
 
@@ -72,6 +77,9 @@ select{
 .end {
 	justify-content: flex-end;
 }
+.evenly{
+    justify-content: space-evenly;
+}
 
 
 /* ! SPECIFIC */
@@ -84,15 +92,15 @@ select{
     background: var(--button-color1);
     display: inline-block;
     color: #ffffff;
-    padding: .1rem .3rem;
+    padding: .2rem .5rem;
     border-radius: 3px;
-    margin: 0 .5rem
+    margin: 1rem .5rem
 }
 
 .card{
     position: relative;
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
 }
 
 .crd-img{
@@ -118,8 +126,8 @@ select{
     cursor: pointer;
 }
 .footer-container i{
-    font-size: 2.4rem;
-    height: ;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
 
 }
 
@@ -131,10 +139,18 @@ select{
     color: var(--button-color2);
 }
 .close{
-    background-color: red;
+    background-color:var(--button-color1);
+    color: rgb(179, 0, 0);
     height: 100%;
     width: 100px;
-    text-align: center;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.close:hover{
+    color: red;
+    background-color:var(--close-color2);
+
 }
 .main-card-box{
     padding: 1rem;
