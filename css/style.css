@@ -26,15 +26,19 @@
 
 header{
     background-color: var(--background-color);
-    height: 4vh;
+    height: 3vh;
 }
 
 main{
     height: 90vh;
+    background-color: var(--background-color);
 }
 
 footer{
-    height: 6vh;
+    height: 7vh;
+    background-color: var(--footer-color);
+    color: var(--button-color);
+    text-align: center;
 
 }
 /*! UTILS */
@@ -118,4 +122,8 @@ footer{
     color: var(--button-color);
     border-radius: 0 5px 0 0;
     padding: .1rem .5rem;
+}
+
+.crd-controls>i{
+    cursor: pointer;
 }
