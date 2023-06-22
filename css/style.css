@@ -39,15 +39,17 @@ footer{
     background-color: var(--footer-color);
     color: var(--button-color);
     text-align: center;
+    font-size: 1rem;
 
+}
+
+select{
+    color: var(--button-color);
+    border: none;
+    background-color: transparent;
 }
 /*! UTILS */
 
-.container {
-	max-width: 1180px;
-	margin-left: auto;
-	margin-right: auto;
-}
 .flex {
 	display: flex;
 }
@@ -70,19 +72,6 @@ footer{
 	justify-content: flex-end;
 }
 
-.fixed {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 3;
-}
-.col {
-	width: 30%;
-}
-.block {
-	display: block;
-}
 
 /* ! SPECIFIC */
 
@@ -126,4 +115,23 @@ footer{
 
 .crd-controls>i{
     cursor: pointer;
+}
+.footer-container i{
+    font-size: 2.4rem;
+    height: ;
+
+}
+
+.footer-btn{
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.footer-btn.green{
+    color: var(--button-color2);
+}
+.close{
+    background-color: red;
+    height: 100%;
+    width: 100px;
+    text-align: center;
 }

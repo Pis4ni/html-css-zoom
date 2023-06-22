@@ -9,10 +9,9 @@
 </head>
 <body>
     <!-- ! header bar -->
-    <header>
-        <div class="interaction-bar flex end">
+    <header class="interaction-bar flex end">
             <!--* speaker view btn -->
-            <div>
+            <div class=" flex ycenter">
                 <i class="fa-solid fa-table-cells"></i>
                 <span>Speaker View</span>
             </div>
@@ -20,7 +19,6 @@
             <div>
                 <i class="fa-solid fa-maximize"></i>
             </div>
-        </div>
     </header>
     <!--! main content -->
     <main class="deb">
@@ -42,12 +40,11 @@
             </div>
         </div>
     </main>
-    <footer class="">
-        <div class="footer-container flex between">
-            <div class="controls-l flex">
+    <footer class="footer-container flex between ycenter">
+            <div class="flex">
                 <!--* mute -->
                 <div>
-                    <div class="mute">
+                    <div class="footer-btn">
                         <i class="fas fa-microphone"></i>
                         <br>
                         mute
@@ -56,7 +53,7 @@
                 </div>
                 <!--* video -->
                 <div>
-                    <div class="video">
+                    <div class="footer-btn">
                         <i class="fas fa-video"></i>
                         <br>
                         stop video
@@ -64,53 +61,52 @@
                     </div>
                 </div>
             </div>
-            <div class="controls flex">
-                <div>
-                    <i class="fas fa-video"></i>
+            <div class=" flex">
+                <div class="footer-btn">
+                    <i class="fa-solid fa-user-plus"></i>
                     <br>
-                    stop video
+                    invite
                 </div>
-                <div>
-                    <i class="fas fa-video"></i>
+                <div class="footer-btn">
+                    <i class="fa-solid fa-user-group"></i>
                     <br>
-                    stop video
+                    manage participants
                 </div>
-                <div>
-                    <i class="fas fa-video"></i>
+                <div class="footer-btn">
+                    <i class="fa-solid fa-square-poll-vertical"></i>
                     <br>
-                    stop video
+                    polling
                 </div>
-                <div>
-                    <i class="fas fa-video"></i>
+                <div class="footer-btn green">
+                    <i class="fa-solid fa-display"></i>
                     <br>
-                    stop video
+                    share Screen
                 </div>
                 <select></select>
-                <div>
-                    <i class="fas fa-video"></i>
+                <div class="footer-btn">
+                    <i class="fa-solid fa-comment"></i>
                     <br>
-                    stop video
+                    chat
                 </div>
-                <div>
-                    <i class="fas fa-video"></i>
+                <div class="footer-btn">
+                    <i class="fa-solid fa-record-vinyl"></i>
                     <br>
-                    stop video
+                    record
                 </div>
-                <div>
-                    <i class="fas fa-video"></i>
+                <div class="footer-btn">
+                    <i class="fa-solid fa-table-cells-large"></i>
                     <br>
-                    stop video
+                    breakout Rooms
                 </div>
-                <div>
-                    <i class="fas fa-video"></i>
+                <div class="footer-btn">
+                    <i class="fa-solid fa-ellipsis"></i>
                     <br>
-                    stop video
+                    breakout Rooms
                 </div>
             </div>
-            <div class="controls-r flex">
-                end meeting
+            <div class="close flex ycenter xcenter">
+                <span>End Call</span>
             </div>
-        </div>
     </footer>
 </body>
 </html>
